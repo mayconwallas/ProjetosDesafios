@@ -1,0 +1,22 @@
+:root {
+    --primeiraCor: #96B9FD;
+    --segundaCor: #7BA4FC;
+    --terceiraCor: #5081FB;
+    --quartaCor: #051D3B;
+}
+
+
+body {
+    background-color: var(--quartaCor);    
+}
+
+.headerMobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.icones-header img {
+    padding: 8px;
+}
